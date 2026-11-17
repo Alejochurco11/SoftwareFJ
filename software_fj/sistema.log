@@ -1,0 +1,81 @@
+2026-11-16 22:21:32,126 - SoftwareFJ - INFO - Cliente registrado: Cliente[C-001] Steven Alejandro Bello doc=12345678 email=steven.bello@unad.edu.co
+2026-11-16 22:21:32,126 - SoftwareFJ - INFO - Operación 'OP1 Registrar cliente válido' exitosa.
+2026-11-16 22:21:32,126 - SoftwareFJ - ERROR - Fallo controlado en 'OP2 Registrar cliente con email inválido (falla esperada)': Email inválido: 'correo-sin-arroba'.
+2026-11-16 22:21:32,126 - SoftwareFJ - ERROR - Fallo controlado en 'OP3 Registrar cliente con documento inválido (falla esperada)': El documento debe contener solo dígitos.
+2026-11-16 22:21:32,126 - SoftwareFJ - INFO - Servicio agregado: Sala[S-001] Sala de Juntas Premium tipo=Premium cap=25 precio_hora=50000.0
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Operación 'OP4 Crear ReservaSala válida + sobrecarga base' exitosa.
+2026-11-16 22:21:32,127 - SoftwareFJ - ERROR - Fallo controlado en 'OP5 Crear equipo con precio negativo (falla esperada)': El precio base debe ser mayor que cero.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Servicio agregado: Asesoría[S-003] Asesoría Cloud esp=DevOps nivel=Avanzada precio_hora=80000.0
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Operación 'OP6 Crear Asesoría válida + 3 sobrecargas' exitosa.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva creada: Reserva[R-001] PENDIENTE cliente=Steven Alejandro Bello servicio=Sala de Juntas Premium dur=2.0 costo=120000.0
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva R-001 CONFIRMADA.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva R-001 PROCESADA con costo 142800.0.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Operación 'OP7 Reserva exitosa sala (confirmar+procesar)' exitosa.
+2026-11-16 22:21:32,127 - SoftwareFJ - ERROR - Fallo controlado en 'OP8 Reserva con duración 0 (falla esperada)': La duración debe ser mayor que cero.
+2026-11-16 22:21:32,127 - SoftwareFJ - ERROR - Fallo controlado en 'OP9 Reserva con servicio no disponible (falla esperada)': Servicio 'Sala de Juntas Premium' no disponible.
+2026-11-16 22:21:32,127 - SoftwareFJ - ERROR - Fallo controlado en 'OP10 Costo con descuento 95% (falla esperada)': El descuento debe estar entre 0 y 0.9 (máx 90%).
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva creada: Reserva[R-004] PENDIENTE cliente=Steven Alejandro Bello servicio=Asesoría Cloud dur=2.0 costo=320000.0
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva R-004 CONFIRMADA.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva R-004 CANCELADA.
+2026-11-16 22:21:32,127 - SoftwareFJ - ERROR - Fallo controlado en 'OP11 Cancelar y procesar cancelada (falla esperada)': Solo se procesa desde CONFIRMADA, actual: CANCELADA.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Servicio agregado: Equipo[S-004] Portátil Empresarial tipo=Laptop stock=10 precio_dia=60000.0
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva creada: Reserva[R-005] PENDIENTE cliente=Steven Alejandro Bello servicio=Portátil Empresarial dur=3.0 costo=180000.0
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva R-005 CONFIRMADA.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Reserva R-005 PROCESADA con costo 214200.0.
+2026-11-16 22:21:32,127 - SoftwareFJ - INFO - Operación 'OP12 Equipo válido + reserva exitosa' exitosa.
+2026-11-16 22:21:32,127 - SoftwareFJ - ERROR - Fallo controlado en 'OP13 Equipo sin stock (falla esperada)': Sin stock disponible para este equipo.
+2026-11-16 22:21:32,128 - SoftwareFJ - INFO - Simulación completa: Clientes=1 Servicios=3 Reservas=3
+2026-11-16 22:23:10,281 - SoftwareFJ - INFO - Cliente registrado: Cliente[C-001] Steven Alejandro Bello doc=12345678 email=steven.bello@unad.edu.co
+2026-11-16 22:23:10,282 - SoftwareFJ - INFO - Operación 'OP1 Registrar cliente válido' exitosa.
+2026-11-16 22:23:10,282 - SoftwareFJ - ERROR - Fallo controlado en 'OP2 Registrar cliente con email inválido (falla esperada)': Email inválido: 'correo-sin-arroba'.
+2026-11-16 22:23:10,283 - SoftwareFJ - ERROR - Fallo controlado en 'OP3 Registrar cliente con documento inválido (falla esperada)': El documento debe contener solo dígitos.
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Servicio agregado: Sala[S-001] Sala de Juntas Premium tipo=Premium cap=25 precio_hora=50000.0
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Operación 'OP4 Crear ReservaSala válida + sobrecarga base' exitosa.
+2026-11-16 22:23:10,285 - SoftwareFJ - ERROR - Fallo controlado en 'OP5 Crear equipo con precio negativo (falla esperada)': El precio base debe ser mayor que cero.
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Servicio agregado: Asesoría[S-003] Asesoría Cloud esp=DevOps nivel=Avanzada precio_hora=80000.0
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Operación 'OP6 Crear Asesoría válida + 3 sobrecargas' exitosa.
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Reserva creada: Reserva[R-001] PENDIENTE cliente=Steven Alejandro Bello servicio=Sala de Juntas Premium dur=2.0 costo=120000.0
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Reserva R-001 CONFIRMADA.
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Reserva R-001 PROCESADA con costo 142800.0.
+2026-11-16 22:23:10,285 - SoftwareFJ - INFO - Operación 'OP7 Reserva exitosa sala (confirmar+procesar)' exitosa.
+2026-11-16 22:23:10,286 - SoftwareFJ - ERROR - Fallo controlado en 'OP8 Reserva con duración 0 (falla esperada)': La duración debe ser mayor que cero.
+2026-11-16 22:23:10,286 - SoftwareFJ - ERROR - Fallo controlado en 'OP9 Reserva con servicio no disponible (falla esperada)': Servicio 'Sala de Juntas Premium' no disponible.
+2026-11-16 22:23:10,286 - SoftwareFJ - ERROR - Fallo controlado en 'OP10 Costo con descuento 95% (falla esperada)': El descuento debe estar entre 0 y 0.9 (máx 90%).
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Reserva creada: Reserva[R-004] PENDIENTE cliente=Steven Alejandro Bello servicio=Asesoría Cloud dur=2.0 costo=320000.0
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Reserva R-004 CONFIRMADA.
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Reserva R-004 CANCELADA.
+2026-11-16 22:23:10,286 - SoftwareFJ - ERROR - Fallo controlado en 'OP11 Cancelar y procesar cancelada (falla esperada)': Solo se procesa desde CONFIRMADA, actual: CANCELADA.
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Servicio agregado: Equipo[S-004] Portátil Empresarial tipo=Laptop stock=10 precio_dia=60000.0
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Reserva creada: Reserva[R-005] PENDIENTE cliente=Steven Alejandro Bello servicio=Portátil Empresarial dur=3.0 costo=180000.0
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Reserva R-005 CONFIRMADA.
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Reserva R-005 PROCESADA con costo 214200.0.
+2026-11-16 22:23:10,286 - SoftwareFJ - INFO - Operación 'OP12 Equipo válido + reserva exitosa' exitosa.
+2026-11-16 22:23:10,286 - SoftwareFJ - ERROR - Fallo controlado en 'OP13 Equipo sin stock (falla esperada)': Sin stock disponible para este equipo.
+2026-11-16 22:23:10,287 - SoftwareFJ - INFO - Simulación completa: Clientes=1 Servicios=3 Reservas=3
+2026-11-16 23:31:20,095 - SoftwareFJ - INFO - Cliente registrado: Cliente[C-001] Steven Alejandro Bello doc=12345678 email=steven.bello@unad.edu.co
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Operación 'OP1 Registrar cliente válido' exitosa.
+2026-11-16 23:31:20,096 - SoftwareFJ - ERROR - Fallo controlado en 'OP2 Registrar cliente con email inválido (falla esperada)': Email inválido: 'correo-sin-arroba'.
+2026-11-16 23:31:20,096 - SoftwareFJ - ERROR - Fallo controlado en 'OP3 Registrar cliente con documento inválido (falla esperada)': El documento debe contener solo dígitos.
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Servicio agregado: Sala[S-001] Sala de Juntas Premium tipo=Premium cap=25 precio_hora=50000.0
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Operación 'OP4 Crear ReservaSala válida + sobrecarga base' exitosa.
+2026-11-16 23:31:20,096 - SoftwareFJ - ERROR - Fallo controlado en 'OP5 Crear equipo con precio negativo (falla esperada)': El precio base debe ser mayor que cero.
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Servicio agregado: Asesoría[S-003] Asesoría Cloud esp=DevOps nivel=Avanzada precio_hora=80000.0
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Operación 'OP6 Crear Asesoría válida + 3 sobrecargas' exitosa.
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Reserva creada: Reserva[R-001] PENDIENTE cliente=Steven Alejandro Bello servicio=Sala de Juntas Premium dur=2.0 costo=120000.0
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Reserva R-001 CONFIRMADA.
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Reserva R-001 PROCESADA con costo 142800.0.
+2026-11-16 23:31:20,096 - SoftwareFJ - INFO - Operación 'OP7 Reserva exitosa sala (confirmar+procesar)' exitosa.
+2026-11-16 23:31:20,097 - SoftwareFJ - ERROR - Fallo controlado en 'OP8 Reserva con duración 0 (falla esperada)': La duración debe ser mayor que cero.
+2026-11-16 23:31:20,097 - SoftwareFJ - ERROR - Fallo controlado en 'OP9 Reserva con servicio no disponible (falla esperada)': Servicio 'Sala de Juntas Premium' no disponible.
+2026-11-16 23:31:20,097 - SoftwareFJ - ERROR - Fallo controlado en 'OP10 Costo con descuento 95% (falla esperada)': El descuento debe estar entre 0 y 0.9 (máx 90%).
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Reserva creada: Reserva[R-004] PENDIENTE cliente=Steven Alejandro Bello servicio=Asesoría Cloud dur=2.0 costo=320000.0
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Reserva R-004 CONFIRMADA.
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Reserva R-004 CANCELADA.
+2026-11-16 23:31:20,097 - SoftwareFJ - ERROR - Fallo controlado en 'OP11 Cancelar y procesar cancelada (falla esperada)': Solo se procesa desde CONFIRMADA, actual: CANCELADA.
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Servicio agregado: Equipo[S-004] Portátil Empresarial tipo=Laptop stock=10 precio_dia=60000.0
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Reserva creada: Reserva[R-005] PENDIENTE cliente=Steven Alejandro Bello servicio=Portátil Empresarial dur=3.0 costo=180000.0
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Reserva R-005 CONFIRMADA.
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Reserva R-005 PROCESADA con costo 214200.0.
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Operación 'OP12 Equipo válido + reserva exitosa' exitosa.
+2026-11-16 23:31:20,097 - SoftwareFJ - ERROR - Fallo controlado en 'OP13 Equipo sin stock (falla esperada)': Sin stock disponible para este equipo.
+2026-11-16 23:31:20,097 - SoftwareFJ - INFO - Simulación completa: Clientes=1 Servicios=3 Reservas=3
